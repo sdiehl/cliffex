@@ -1,13 +1,9 @@
 # cliffex
 
-A static web catalog of [Clifford algebra](https://ncatlab.org/nlab/show/Clifford+algebra) operators across five signatures: $`\mathrm{Cl}(p,q,r)`$ for PGA, CGA, STA, HYP, CMA.
+An interactive web explorer of [Clifford algebra](https://ncatlab.org/nlab/show/Clifford+algebra) operators across five signatures: $`\mathrm{Cl}(p,q,r)`$ for PGA, CGA, STA, HYP, CMA.
 
 ```bash
-npm install
-npm run dev          # vite at localhost:5173
-npm run build        # static bundle into dist/
-npm run format       # prettier
-npm run lint         # eslint
+npx vite --port 8000
 ```
 
 ## License
